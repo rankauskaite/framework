@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5dade2; /* Match the landing page background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 40px; /* Increase padding for better spacing */
+    border-radius: 10px; /* Match the border radius of other elements */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Increase margin bottom for better spacing */
+    color: #333; /* Match the landing page text color */
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px; /* Increase padding for better input size */
+    margin-bottom: 20px; /* Increase margin bottom for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Match the border radius of other elements */
+    box-sizing: border-box;
+    font-size: 16px; /* Match the font size of other text */
+}
+
+.password-box,
+.confirm-password-box {
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.password-box img,
+.confirm-password-box img {
+    position: absolute;
+    width: 25px;
+    top: 25%;
+    right: 4%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ff9f80; /* Match the landing page button color */
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 6px; /* Match the border radius of other elements */
+    cursor: pointer;
+    font-size: 16px; /* Match the font size of other text */
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff7e50; /* Darker shade on hover */
+}
+
+.error {
+    color: red;
+    margin-top: 10px; /* Increase margin top for better spacing */
+    text-align: center; /* Center error message */
+    font-size: 14px; /* Match the font size of other text */
+}
